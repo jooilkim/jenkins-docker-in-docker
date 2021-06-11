@@ -71,7 +71,7 @@ sudo docker-compose up -d
 ```
 
 jenkins 컨테이너에 접속해서 docker 명령어 테스트
-브라우저에서 http://www.example.com:9090에 접속
+브라우저에서 http://www.example.com:9090 에 접속
 
 ```
 docker exec -it jenkins_docker cat /var/jenkins_home/secrets/initialAdminPassword
